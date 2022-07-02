@@ -31,19 +31,19 @@ class MyApp extends StatelessWidget {
               title: 'Home',
           ),
           FloatingNavBarItem(
-              iconData: Icons.local_hospital_outlined,
+              iconData: Icons.favorite,
               page:const MyHomePage(),
-              title: 'Doctors',
+              title: 'Favorite',
           ),
           FloatingNavBarItem(
-              iconData: Icons.alarm,
+              iconData: Icons.shopping_cart,
               page: const MyHomePage(),
-              title: 'Reminders',
+              title: 'Cart',
           ),
           FloatingNavBarItem(
-              iconData: Icons.pending_actions_outlined,
+              iconData: Icons.settings,
               page: const MyHomePage(),
-              title: 'Records',
+              title: 'Settings',
           ),
         ],
         horizontalPadding: 10.0,
@@ -75,21 +75,6 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Colors.transparent,
       ),
       body: const TopView()
-    );
-  }
-}
-
-class ModelView extends StatelessWidget {
-  const ModelView({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return ModelViewer(
-      src: 'assets/glbs/sneaker.glb',
-      alt: "A 3D model of an astronaut",
-      ar: true,
-      autoRotate: false,
-      cameraControls: true,
     );
   }
 }

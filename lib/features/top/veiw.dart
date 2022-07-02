@@ -9,13 +9,8 @@ class TopView extends StatelessWidget {
     return SingleChildScrollView(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text('Top Rated', style: Theme.of(context).textTheme.headline5!.copyWith(
-              fontWeight: FontWeight.bold,
-              fontStyle: FontStyle.italic,
-              fontFamily: 'Futura'),
-          ),
-          const ItemsGridView()
+        children: const [
+          ItemsGridView()
         ],
       ),
     );
