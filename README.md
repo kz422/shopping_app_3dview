@@ -1,16 +1,12 @@
-# interactive_3dviewer
+## 3Dグラフィック素材をインタラクティブに触れるEC風アプリのモック
 
-A new Flutter project.
+![ezgif-5-4709547ca1](https://user-images.githubusercontent.com/62371293/177010914-dd8d4e43-079a-480c-9d37-d075e92b1c99.gif)
 
-## Getting Started
+非常にぬるぬるでオモシロイ
 
-This project is a starting point for a Flutter application.
+### ライブラリなんぞ
 
-A few resources to get you started if this is your first Flutter project:
+- [Vectary](https://www.vectary.com/)でGLB形式の素材をゲットし
+- [パッケージ](https://pub.dev/packages/model_viewer_plus)を使ってFlutter側で描画
+- 商品説明分は[これ](https://pub.dev/packages/flutter_lorem)でてきとうに
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
