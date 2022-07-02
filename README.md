@@ -8,5 +8,5 @@
 
 - [Vectary](https://www.vectary.com/)でGLB形式の素材をゲットし
 - [パッケージ](https://pub.dev/packages/model_viewer_plus)を使ってFlutter側で描画
-- 商品説明分は[これ](https://pub.dev/packages/flutter_lorem)でてきとうに
+- 商品説明文は[これ](https://pub.dev/packages/flutter_lorem)でてきとうに
 
